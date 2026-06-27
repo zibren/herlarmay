@@ -1,0 +1,48 @@
+# --- Gradle ---
+.gradle/
+build/
+app/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# --- IDE (IntelliJ / Android Studio) ---
+*.iml
+.idea/
+!/.idea/caches/
+!/.idea/libraries/
+!/.idea/modules.xml
+!/.idea/workspace.xml
+!/.idea/navEditor.xml
+!/.idea/assetWizardSettings.xml
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# --- Android ---
+*.apk
+*.ap_
+*.aab
+*.dex
+*.class
+bin/
+gen/
+out/
+.realm/
+*.keystore
+!debug.keystore
+
+# --- Native ---
+.externalNativeBuild
+.cxx/
+*.so
+
+# --- Local ---
+local.properties
+*.local
+
+# --- Misc ---
+/captures
+*.log
+*.tmp
